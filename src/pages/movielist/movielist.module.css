@@ -1,0 +1,35 @@
+.surround{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  height: 100%;
+  background-color: #42c6f3;
+  text-align: center;
+}
+main{
+  width: 100%;
+  height: 100%;
+}
+.moviecontainer{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  padding: 30px;
+}
+.movieimage{
+  width: 100%;
+  height: 240px;
+}
+.movieimage img{
+  width: 100%;
+  height: 100%;
+}
+.link{
+  text-decoration: none;
+  color: #000;
+}
+@media screen and (max-width: 700px) {
+  .moviecontainer{
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+}
