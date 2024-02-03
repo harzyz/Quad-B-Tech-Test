@@ -25,7 +25,7 @@ const Moviedetail = () => {
   }
 
   return (
-    <main>
+    <main className={styles.cotain}>
       <h1 className={styles.moviename}>{movie.show.name}</h1>
       <div className={styles.wrapper}>
         <div className={styles.moviecontainer}>

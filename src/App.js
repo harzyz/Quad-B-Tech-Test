@@ -6,7 +6,7 @@ import Moviedetail from './pages/moviedetail/moviedetail';
 
 function App() {
   return (
-    <main>
+    <main className='wrapper'>
       <MovieProvider>
         <Router>
           <Routes>
